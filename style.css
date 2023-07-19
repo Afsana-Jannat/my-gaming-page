@@ -319,9 +319,7 @@ line-height: normal
 }
 
 @media screen and (max-width: 576px){
-    body{
-        border: 2px solid seagreen;
-    }
+    
     
     .banner, .header{
         margin: 0;
