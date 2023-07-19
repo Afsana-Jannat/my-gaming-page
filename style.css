@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
 }
-header{
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Work+Sans:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+    header{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     padding: 20px 140px;
@@ -91,6 +95,10 @@ line-height: normal
    font-style: normal;
    font-weight: 500;
 }
+.banner-img img{
+    height: 98%;
+    width: 98%;
+}
 #pink{
     color: #FF42A5;
 }
@@ -116,4 +124,179 @@ line-height: normal
     font-size: 16px;;
     margin-top: 30px;
     margin-right: 15px;
+}
+.second-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    margin: 20px 120px 20px 10px;
+}
+.secnd-title{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.secnd-discription{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+}
+.online-game{
+    text-align: center;
+}
+.online-title{
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.online-discrip{
+    font-weight: 400;
+    font-size: 14px;
+    color: #534C64;
+    margin-bottom: 15px;
+}
+.online-image img{
+    width: 250px;
+    height: 300px;
+}
+.online-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 50px 110px;
+}
+.img-discription{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    width: 200px;
+}
+.play-instantly{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 90px 0px 140px;
+}
+.instant-content{
+    text-align: right;
+    margin-top: 150px;
+}
+.instant-title{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 28px;
+    font-style: normal;
+   font-weight: 700;
+   width: 200px;
+   margin-bottom: 10px;
+}
+.ractangular-img{
+    margin-left: 150px;
+}
+
+.r-img{
+    position: relative;
+    bottom: 190px;
+}
+.image-part img{
+    height: auto;
+    width: 98%;
+    margin-left: 110px;
+}
+.small-img img{
+    height: auto;
+    width: 50%;
+    position: relative;
+    bottom: 100px;
+    left: 360px;
+}
+.next-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 350px;
+}
+.next-title{
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+   font-weight: 700;
+    width: 340px;
+    margin-top: 100px;
+    margin-right: 100px;
+   
+}
+.discrip{
+    margin-top: 10px;
+    width: 320px;
+}
+.light-pink{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;}
+
+@media screen and (max-width: 576px){
+    body{
+        border: 2px solid seagreen;
+    }
+    .banner, .header{
+        margin: 0;
+        padding: 0;
+    }
+    .banner-img img{
+        height: 42%;
+        width: 42%;
+    }
+    nav, ul{
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    .logo, .list, .icon{
+        font-size: 23px;
+    }
+    .banner{
+        margin: 20px 2px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+   
+    .play{
+        font-size: 15px;
+    } 
+    .goat{
+        font-size: 40px;
+    }
+    .banner-list,.banner-container{
+        font-size: 13px;
+       margin-top: 5px;
+    }
+    .banner-content{
+        margin-top: 20px;
+    }
+    .blue-btn{
+        margin-top: 8px;
+        padding: 5px 12px;
+        font-size: 10px;
+        border-radius: 8px;
+    }
+    .pink-btn{
+        margin-top: 8px;
+        padding: 5px 12px;
+        font-size: 10px;
+        border-radius: 8px;
+    }
 }
