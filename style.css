@@ -423,4 +423,23 @@ line-height: normal
   .features-image{
     margin-right: 700px;
   }
+  .frame{
+    padding: 15px 85px;11
+}
+.gamer-list{
+    color: #FFF;
+ 
+    gap: 10px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+.font-list{
+    gap: 15px;
+    padding-left: 180px;
+    padding-top: 10px;
+
+}
+.font-content{
+   padding-left: 30px;
+}
 }
