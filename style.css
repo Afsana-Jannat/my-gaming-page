@@ -94,3 +94,26 @@ line-height: normal
 #pink{
     color: #FF42A5;
 }
+.banner-container{
+    margin-top: 15px;
+}
+.pink-btn{
+    padding: 16px 33px;
+    color: #FFF;
+    border-radius: 46px;
+    border-style: none;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    font-size: 16px;;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+.blue-btn{
+    padding: 16px 33px;
+    color: #FFF;
+    border-radius: 46px;
+    border-style: none;
+    background: #4EC5F7;;
+    font-size: 16px;;
+    margin-top: 30px;
+    margin-right: 15px;
+}
