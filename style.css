@@ -35,7 +35,6 @@ span{
 }
 .gamer-logo{
     text-align: center;
-    font-family: Work Sans;
     font-size: 45px;
    font-style: normal;
    font-weight: 700;
@@ -66,18 +65,14 @@ nav li{
 .play{
     color: #0B0223;
 text-align: center;
-font-family: Work Sans;
 font-size: 38px;
-font-style: normal;
 font-weight: 600;
 line-height: normal
 }
 
 .goat{
     text-align: center;
-    font-family: Work Sans;
     font-size: 75px;
-    font-style: normal;
     font-weight: 800;
     line-height: normal;
     text-transform: uppercase;
@@ -134,7 +129,6 @@ line-height: normal
 }
 .secnd-title{
     text-align: right;
-    font-family: Work Sans;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -148,9 +142,7 @@ line-height: normal
 .secnd-discription{
     color: #534C64;
     text-align: right;
-    font-family: Work Sans;
     font-size: 13px;
-    font-style: normal;
     font-weight: 400;
 }
 .online-game{
@@ -178,7 +170,6 @@ line-height: normal
 }
 .img-discription{
     color: #534C64;
-    font-family: Work Sans;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -195,7 +186,6 @@ line-height: normal
 }
 .instant-title{
     text-align: right;
-    font-family: Work Sans;
     font-size: 28px;
     font-style: normal;
    font-weight: 700;
@@ -439,5 +429,20 @@ line-height: normal
 }
 .font-content{
    padding-left: 30px;
+}
+}
+@media screen and (min-width:576px) and (max-width:960px){
+body{
+    width: 1172px;
+}
+.banner, .header{
+    margin: 0;
+    padding: 0;
+}
+.banner-content{
+    padding-left: 30px;
+}
+.font-discrip{
+    padding-left: 170px;
 }
 }
